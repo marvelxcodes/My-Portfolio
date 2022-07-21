@@ -11,7 +11,7 @@ body, html {
 header {
     height: 60px;
     width: 100%;
-    background-color: #B400FF;
+    background-color: #6600ff;
     position: fixed;
     display: flex;
     padding: 0 3rem 0 3rem;
@@ -62,12 +62,14 @@ section.one {
 section.one h4 {
     font-size: 30px;
     font-weight: 800;
+    color: #666;
 }
 
 section.one h1 {
     font-weight: 800;
     font-size: 80px;
     text-align: center;
+    color: #000000;
 }
 
 section.one hr {
@@ -77,11 +79,20 @@ section.one hr {
 section.one p {
     font-weight: 400;
     font-size: 18px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    color: rgb(121, 121, 121);
 }
 
 section.two {
-    background-color: #00ff95;
+    background-color: #d2d2d2;
+}
+
+section.two .run-btn {
+    
+}
+
+section.three {
+    background-color: #6600ff;
 }
 
 footer {
